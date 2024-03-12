@@ -31,7 +31,7 @@ const Signup = () => {
         }, 2200);
       },
       (err) => {
-        toast.error("User already exits");
+        toast.error("Same info is already exists");
         console.log(err);
       }
     );
